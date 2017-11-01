@@ -51,6 +51,7 @@
 		C8E0F3B01FAA551F001176AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C8E0F3BC1FAA555C001176AC /* DataConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataConverter.swift; sourceTree = "<group>"; };
 		C8E0F3BD1FAA555D001176AC /* Compute.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Compute.metal; sourceTree = "<group>"; };
+		C8E0F3C01FAA5719001176AC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +110,7 @@
 				C8E0F3951FAA551F001176AC /* Assets.xcassets */,
 				C8E0F3971FAA551F001176AC /* LaunchScreen.storyboard */,
 				C8E0F39A1FAA551F001176AC /* Info.plist */,
+				C8E0F3C01FAA5719001176AC /* README.md */,
 			);
 			path = MetalCompute;
 			sourceTree = "<group>";
