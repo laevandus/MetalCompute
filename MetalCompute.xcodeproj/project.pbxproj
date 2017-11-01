@@ -14,6 +14,8 @@
 		C8E0F3991FAA551F001176AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8E0F3971FAA551F001176AC /* LaunchScreen.storyboard */; };
 		C8E0F3A41FAA551F001176AC /* MetalComputeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E0F3A31FAA551F001176AC /* MetalComputeTests.swift */; };
 		C8E0F3AF1FAA551F001176AC /* MetalComputeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E0F3AE1FAA551F001176AC /* MetalComputeUITests.swift */; };
+		C8E0F3BE1FAA555D001176AC /* DataConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E0F3BC1FAA555C001176AC /* DataConverter.swift */; };
+		C8E0F3BF1FAA555D001176AC /* Compute.metal in Sources */ = {isa = PBXBuildFile; fileRef = C8E0F3BD1FAA555D001176AC /* Compute.metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		C8E0F3AA1FAA551F001176AC /* MetalComputeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetalComputeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8E0F3AE1FAA551F001176AC /* MetalComputeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalComputeUITests.swift; sourceTree = "<group>"; };
 		C8E0F3B01FAA551F001176AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8E0F3BC1FAA555C001176AC /* DataConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataConverter.swift; sourceTree = "<group>"; };
+		C8E0F3BD1FAA555D001176AC /* Compute.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Compute.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				C8E0F38E1FAA551F001176AC /* AppDelegate.swift */,
 				C8E0F3901FAA551F001176AC /* ViewController.swift */,
+				C8E0F3BC1FAA555C001176AC /* DataConverter.swift */,
+				C8E0F3BD1FAA555D001176AC /* Compute.metal */,
 				C8E0F3921FAA551F001176AC /* Main.storyboard */,
 				C8E0F3951FAA551F001176AC /* Assets.xcassets */,
 				C8E0F3971FAA551F001176AC /* LaunchScreen.storyboard */,
@@ -260,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8E0F3911FAA551F001176AC /* ViewController.swift in Sources */,
+				C8E0F3BE1FAA555D001176AC /* DataConverter.swift in Sources */,
 				C8E0F38F1FAA551F001176AC /* AppDelegate.swift in Sources */,
+				C8E0F3BF1FAA555D001176AC /* Compute.metal in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +435,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XJPC47UM3W;
 				INFOPLIST_FILE = MetalCompute/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = augmentedcode.MetalCompute;
@@ -441,6 +450,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XJPC47UM3W;
 				INFOPLIST_FILE = MetalCompute/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = augmentedcode.MetalCompute;
