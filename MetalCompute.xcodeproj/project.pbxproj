@@ -82,6 +82,7 @@
 		C8E0F3821FAA551F001176AC = {
 			isa = PBXGroup;
 			children = (
+				C8E0F3C01FAA5719001176AC /* README.md */,
 				C8E0F38D1FAA551F001176AC /* MetalCompute */,
 				C8E0F3A21FAA551F001176AC /* MetalComputeTests */,
 				C8E0F3AD1FAA551F001176AC /* MetalComputeUITests */,
@@ -110,7 +111,6 @@
 				C8E0F3951FAA551F001176AC /* Assets.xcassets */,
 				C8E0F3971FAA551F001176AC /* LaunchScreen.storyboard */,
 				C8E0F39A1FAA551F001176AC /* Info.plist */,
-				C8E0F3C01FAA5719001176AC /* README.md */,
 			);
 			path = MetalCompute;
 			sourceTree = "<group>";
