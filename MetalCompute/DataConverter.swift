@@ -55,7 +55,7 @@ final class DataConverter
         commandEncoder.setBuffer(inputBuffer, offset: 0, index: 0)
         commandEncoder.setBuffer(outputBuffer, offset: 0, index: 1)
         
-        let threadsPerThreadgroup = MTLSize(width: 16, height: 1, depth: 1)
+        let threadsPerThreadgroup = MTLSize(width: 10, height: 1, depth: 1)
         let threadgroupsPerGrid = MTLSize(width: data.count / threadsPerThreadgroup.width, height: threadsPerThreadgroup.height, depth: threadsPerThreadgroup.depth)
         commandEncoder.dispatchThreadgroups(threadgroupsPerGrid, threadsPerThreadgroup: threadsPerThreadgroup)
         
