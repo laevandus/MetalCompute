@@ -1,8 +1,3 @@
-//
-//  AppDelegate.swift
-//  MetalCompute
-//
-//  Created by Toomas Vahter on 01/11/2017.
 //  Copyright © 2017 Augmented Code.
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -23,11 +18,3 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 //  SOFTWARE.
 //
-
-import UIKit
-
-@UIApplicationMain
-final class AppDelegate: UIResponder, UIApplicationDelegate
-{
-    var window: UIWindow?
-}
